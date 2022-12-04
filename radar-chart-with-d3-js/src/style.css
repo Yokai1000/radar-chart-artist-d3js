@@ -1,0 +1,73 @@
+.radar-chart .area {
+  fill-opacity: 0.7;
+}
+
+.radar-chart.focus .area {
+  fill-opacity: 0.3;
+}
+
+.radar-chart.focus .area.focused {
+  fill-opacity: 0.9;
+}
+
+.area.germany,
+.germany .circle {
+  fill: #3a4;
+  stroke: none;
+}
+
+.area.argentina,
+.argentina .circle {
+  fill: #f13;
+  stroke: none;
+}
+
+.area.radar-chart-serie0 {
+  fill: rgb(215, 17, 255);
+  stroke: none;
+}
+
+.area.radar-chart-serie0 {
+  fill: rgb(108, 17, 255);
+  stroke: none;
+}
+.area.radar-chart-serie1 {
+  fill: rgb(17, 199, 255);
+  stroke: none;
+}
+.area.radar-chart-serie2 {
+  fill: rgb(17, 255, 196);
+  stroke: none;
+}
+.area.radar-chart-serie3 {
+  fill: rgb(17, 255, 57);
+  stroke: none;
+}
+.area.radar-chart-serie4 {
+  fill: rgb(239, 255, 17);
+  stroke: none;
+}
+.area.radar-chart-serie5 {
+  fill: rgb(255, 180, 17);
+  stroke: none;
+}
+
+.area.radar-chart-serie6 {
+  fill: rgb(243, 205, 147);
+  stroke: none;
+}
+
+.area.radar-chart-serie7 {
+  fill: rgb(110, 96, 240);
+  stroke: none;
+}
+
+.area.radar-chart-serie8 {
+  fill: rgb(240, 96, 180);
+  stroke: none;
+}
+
+.area.radar-chart-serie9 {
+  fill: rgb(84, 153, 20);
+  stroke: none;
+}

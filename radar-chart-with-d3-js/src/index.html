@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Radar chart with D3.js</title>
+    <link
+      rel="stylesheet"
+      href="https://rawgit.com/tpreusse/radar-chart-d3/master/src/radar-chart.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+
+    <!-- partial -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script
+      type="application/json"
+      src="./data.json"
+    ></script>
+    <script src="https://d3js.org/d3.v3.js"></script>
+    <script src="https://rawgit.com/tpreusse/radar-chart-d3/master/src/radar-chart.js"></script>
+
+    <script>
+      var data;
+      fetch('data.json')
+        .then((response) => response.json())
+        .then((json) => (data = json));
+    </script>
+
+    <script>
+      var chart = RadarChart.chart();
+      var chartConfig = chart.config({
+        containerClass: 'radar-chart',
+        factor: 0.95,
+        factorLegend: 1,
+        maxValue: 0,
+        w: 400,
+        h: 400,
+        radians: 2 * Math.PI,
+        color: d3.scale.category10(),
+        axisLine: true,
+        axisText: true,
+        circles: true,
+        transitionDuration: 300,
+      }); // retrieve default config
+
+      var svg = d3
+        .select('body')
+        .append('svg')
+        .attr('width', 600)
+        .attr('height', 800);
+
+      var g = svg
+        .append('g')
+        .classed('focus', 1)
+        .datum(data)
+        .call(chart);
+
+      var div = d3
+        .select('body')
+        .append('div')
+        .style('position', 'absolute')
+        .style('width', '100px')
+        .style('height', '100px')
+        .style('z-index', '80')
+        .style('top', '10px');
+
+      var focusText = d3
+        .select('div')
+        .append('text')
+        .style('position', 'absolute')
+        .style('z-index', '10')
+        .style('visibility', 'hidden')
+        .style('background', '#FFFF')
+        .text('Default');
+
+      var index = 0;
+
+      data.forEach(function (x, y) {
+        d3.select(
+          'polygon.area.radar-chart-serie' + index
+        )
+          .on('mouseover', function (d, i) {
+            console.log(x.artiste);
+            focusText.text(d.artiste);
+            return focusText.style(
+              'visibility',
+              'visible'
+            );
+          })
+          .on('mouseout', function () {
+            focusText
+              .style('visibility', 'hidden')
+              .attr('z-index', '0');
+          });
+        index++;
+      });
+    </script>
+  </body>
+</html>

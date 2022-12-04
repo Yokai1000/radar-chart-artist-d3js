@@ -1,0 +1,182 @@
+[
+    {
+      "artiste": "Joachim Garraud",
+      "axes": [
+        {
+          "axis": "HIP HOP/RAP/RNB",
+          "value": 1,
+          "yOffset": 10
+        },
+        { "axis": "ELECTRONIC/DANCE", "value": 3 },
+        { "axis": "LATIN POP", "value": 4 },
+        { "axis": "POP", "value": 2 },
+        {
+          "axis": "ROCK",
+          "value": 1,
+          "xOffset": -20
+        }
+      ]
+    },
+    {
+      "artiste": "Chris Willis",
+      "axes": [
+        {
+          "axis": "HIP HOP/RAP/RNB",
+          "value": 1,
+          "yOffset": 10
+        },
+        { "axis": "ELECTRONIC/DANCE", "value": 3 },
+        { "axis": "LATIN POP", "value": 1 },
+        { "axis": "POP", "value": 4 },
+        {
+          "axis": "ROCK",
+          "value": 2,
+          "xOffset": -20
+        }
+      ]
+    },
+    {
+      "artiste": "Cozi",
+      "axes": [
+        {
+          "axis": "HIP HOP/RAP/RNB",
+          "value": 1,
+          "yOffset": 10
+        },
+        { "axis": "ELECTRONIC/DANCE", "value": 3 },
+        { "axis": "LATIN POP", "value": 1 },
+        { "axis": "POP", "value": 2 },
+        {
+          "axis": "ROCK",
+          "value": 1,
+          "xOffset": -20
+        }
+      ]
+    },
+    {
+      "artiste": "Steve Berman",
+      "axes": [
+        {
+          "axis": "HIP HOP/RAP/RNB",
+          "value": 5,
+          "yOffset": 10
+        },
+        { "axis": "ELECTRONIC/DANCE", "value": 1 },
+        { "axis": "LATIN POP", "value": 2 },
+        { "axis": "POP", "value": 3 },
+        {
+          "axis": "ROCK",
+          "value": 1,
+          "xOffset": -20
+        }
+      ]
+    },
+    {
+      "artiste": "Kobe",
+      "axes": [
+        {
+          "axis": "HIP HOP/RAP/RNB",
+          "value": 1,
+          "yOffset": 10
+        },
+        { "axis": "ELECTRONIC/DANCE", "value": 2 },
+        { "axis": "LATIN POP", "value": 1 },
+        { "axis": "POP", "value": 4 },
+        {
+          "axis": "ROCK",
+          "value": 1,
+          "xOffset": -20
+        }
+      ]
+    },
+    {
+      "artiste": "Jeff Bass",
+      "axes": [
+        {
+          "axis": "HIP HOP/RAP/RNB",
+          "value": 1,
+          "yOffset": 10
+        },
+        { "axis": "ELECTRONIC/DANCE", "value": 0 },
+        { "axis": "LATIN POP", "value": 0 },
+        { "axis": "POP", "value": 3 },
+        {
+          "axis": "ROCK",
+          "value": 6,
+          "xOffset": -20
+        }
+      ]
+    },
+    {
+      "artiste": "Rihanna",
+      "axes": [
+        {
+          "axis": "HIP HOP/RAP/RNB",
+          "value": 5,
+          "yOffset": 10
+        },
+        { "axis": "ELECTRONIC/DANCE", "value": 2 },
+        { "axis": "LATIN POP", "value": 1 },
+        { "axis": "POP", "value": 4 },
+        {
+          "axis": "ROCK",
+          "value": 1,
+          "xOffset": -20
+        }
+      ]
+    },
+    {
+      "artiste": "Adelén",
+      "axes": [
+        {
+          "axis": "HIP HOP/RAP/RNB",
+          "value": 1,
+          "yOffset": 10
+        },
+        { "axis": "ELECTRONIC/DANCE", "value": 4 },
+        { "axis": "LATIN POP", "value": 0 },
+        { "axis": "POP", "value": 2 },
+        {
+          "axis": "ROCK",
+          "value": 1,
+          "xOffset": -20
+        }
+      ]
+    },
+    {
+      "artiste": "Shakira",
+      "axes": [
+        {
+          "axis": "HIP HOP/RAP/RNB",
+          "value": 4,
+          "yOffset": 10
+        },
+        { "axis": "ELECTRONIC/DANCE", "value": 2 },
+        { "axis": "LATIN POP", "value": 5 },
+        { "axis": "POP", "value": 4 },
+        {
+          "axis": "ROCK",
+          "value": 1,
+          "xOffset": -20
+        }
+      ]
+    },
+    {
+      "artiste": "David Guetta",
+      "axes": [
+        {
+          "axis": "HIP HOP/RAP/RNB",
+          "value": 1,
+          "yOffset": 10
+        },
+        { "axis": "ELECTRONIC/DANCE", "value": 5 },
+        { "axis": "LATIN POP", "value": 1 },
+        { "axis": "POP", "value": 4 },
+        {
+          "axis": "ROCK",
+          "value": 1,
+          "xOffset": -20
+        }
+      ]
+    }
+  ]
